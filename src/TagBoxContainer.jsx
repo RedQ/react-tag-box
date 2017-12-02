@@ -7,7 +7,6 @@ import drive from './driver'
 import Tag from './Tag'
 import Autocomplete from './Autocomplete'
 
-console.log(PropTypes);
 export default class TagBoxContainer extends Component {
   static propTypes = {
     selected: PropTypes.arrayOf(TagProp),
