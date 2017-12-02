@@ -1,6 +1,7 @@
-import { PropTypes } from 'react'
 import makeCache from './cache'
 import TagContainer from './TagBoxContainer'
+import PropTypes from 'prop-types';
+
 
 export default class TagBoxAsync extends TagContainer {
   static propTypes = {

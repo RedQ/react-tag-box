@@ -1,4 +1,5 @@
-import React, { PropTypes, Component } from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types';
 import TagProp from './utils'
 import TAG_REJECTED from './constants'
 import TagManager from './TagManager'
@@ -6,6 +7,7 @@ import drive from './driver'
 import Tag from './Tag'
 import Autocomplete from './Autocomplete'
 
+console.log(PropTypes);
 export default class TagBoxContainer extends Component {
   static propTypes = {
     selected: PropTypes.arrayOf(TagProp),

@@ -1,6 +1,7 @@
-import React, { PropTypes, Component } from 'react'
-import classNames from 'classnames'
-import TagProp from './utils'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import classNames from 'classnames';
+import TagProp from './utils';
 
 export default class extends Component {
   static propTypes = {
